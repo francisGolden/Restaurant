@@ -10,3 +10,5 @@ PROBLEM: mid section of home page changes size when switching between tabs<br>
 
 PROBLEM: mid section text of contact tab overflows the box when using mobile device <br>
 **SOLUTION: applied mid.style.wordBreak = "break-word". now the text doesn't overflow**
+
+To deploy the page to GH pages I used this little nice trick: https://gist.github.com/cobyism/4730490

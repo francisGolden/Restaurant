@@ -353,7 +353,7 @@ export function contact () {
 
 // PROBLEM: modules are getting loaded incrementally
 // more times every time I click on the tab: 
-// SOLUTION: adding event listeners inside each modules caused this issue, 
+// SOLUTION: adding event listeners inside each module caused this issue, 
 // which made the modules load multiple times and 
 // in the long run made the page crash. I just added event listeners
 // once and outside the modules, in global scope.

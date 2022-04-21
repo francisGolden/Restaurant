@@ -1,5 +1,7 @@
 # Restaurant Live: https://francisgolden.github.io/Restaurant/
 
+First project made using webpack
+
 PROBLEM: modules are getting loaded incrementally more times every time I click on the tab:<br>
 **SOLUTION: adding event listeners inside each module caused this issue, which made the modules load multiple times and  in the long run made the page crash. I just added event listeners once and outside the modules, in global scope.**
 
